@@ -1,5 +1,5 @@
 {
-  "name": "albadfolio",
+  "name": "albaddev",
   "version": "1.0.0",
   "description": "portfolio\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D AlbadDev\u001b[ portFolio",
   "main": "index.js",
@@ -15,11 +15,13 @@
   "author": "AlbadDev",
   "license": "ISC",
   "dependencies": {
+    "@material-ui/core": "^4.12.1",
+    "bootstrap": "^5.0.2",
     "material-icons": "^0.7.6",
-    "material-ui": "^0.20.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "^4.0.3",
+    "reactstrap": "^8.9.0",
     "yarn": "^1.22.10"
   },
   "browserslist": {
