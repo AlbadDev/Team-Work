@@ -1,0 +1,13 @@
+.nav_link {
+    color: whitesmoke;
+    margin-left: 20px;
+    color: chartreuse;
+}
+
+.nav_link:hover {
+    background-color: rgb(76, 224, 235);
+    border-radius: 10%;
+}
+.nav_link:active {
+    background-color: cyan;
+}
