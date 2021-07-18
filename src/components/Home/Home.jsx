@@ -1,15 +1,16 @@
 import {Col, Row, Container } from 'reactstrap'
+import './Home.css'
 import {Grid, Typography} from '@material-ui/core'
 import { typography } from '@material-ui/system'
  export default function Home() {
     return (
        <div className='container p-5' >
-           <Typography style={{fontFamily:'Raleway',fontSize:25}}>YOUR HOME FOR TIPPING </Typography>
+           <Typography className='headerText' style={{fontSize:25}}>YOUR HOME FOR TIPPING </Typography>
            <Row  xs='1' md='2'  lg='2' className=' m-2'>
                <Row xs='1' md='2' lg='2' className='p-2'>
                    
                     <Col className='' style={{}}>
-                            <Typography style={{fontFamily:'Raleway',fontSize:25,marginBottom:15}}>
+                            <Typography style={{fontFamily:' Raleway',fontSize:25,marginBottom:15}}>
                                 TIP
                             </Typography>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde necessitatibus illo aliquam obcaecati, facere beatae assumenda fugit eaque consequuntur consectetur, quas id at natus cum dolorem eos, esse ab a!
