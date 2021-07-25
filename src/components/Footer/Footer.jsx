@@ -3,6 +3,9 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import './Footer.scss'
+import {NavLink} from 'react-router-dom'
+
+
 
 export default function Footer() {
     return (
