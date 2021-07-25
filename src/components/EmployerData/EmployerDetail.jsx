@@ -3,7 +3,7 @@ import axios from 'axios'
 import {Col, Row, Container } from 'reactstrap'
 import {Grid, Typography} from '@material-ui/core'
 import EmployerCard from './EmployerCard'
-
+import './EmployerDetail.scss'
 
 
 export default function EmployerDetail() {
@@ -23,16 +23,16 @@ export default function EmployerDetail() {
 
     
     return (
-        <div className="container m-5">
+        <div className="container " style={{justifyContent:'center',alignItems:'center'}}>
             <div className="row">
-                <Container className='m-4 p-5' style={{justifyContent:'center'}}>
-                    <h2>Our Team </h2>
-                    <p style={{}}>Here at eztip we are all about that satisfaction. We are the faction of stais. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt earum fugit ipsum, reprehenderit accusamus, ad, amet consequuntur illo totam voluptate ea. Eius quis illum consequuntur deleniti facilis repellendus quo officia!</p>
+                <Container className='m-2 p-5' >
+                    <h2 className='p-4'>Our Team </h2>
+                    <p style={{marginRight:15}}>Here at eztip we are all about that satisfaction. We are the faction of stais. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt earum fugit ipsum, reprehenderit accusamus, ad, amet consequuntur illo totam voluptate ea. Eius quis illum consequuntur deleniti facilis repellendus quo officia!</p>
                 </Container>
                 {employer.map((emp) => 
                     <div className="col s12 m2 " style={{justifyContent:'center',textAlign:'center', alignItems:'center'}}>
                         <div  >
-                            <div className="card-image"> 
+                            <div className="card-image image"> 
                                 <img src={emp.avatar_url} alt={emp.login} width='300' style={{borderRadius:50}}/>
                             </div>
                             <div className="card-stacked">
