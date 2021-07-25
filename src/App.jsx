@@ -15,7 +15,7 @@ export default function App() {
         <Switch>
             <Route exact path='/' component={Home} />
             <Route exact path='/Home' component={Home}/>
-            <Route  path='/Team' component={EmployerDetail} />
+            <Route path='/Team' component={EmployerDetail} />
             <Route exact path='/About' component={About} />
         </Switch>
         <Footer />
