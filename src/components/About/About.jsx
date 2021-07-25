@@ -7,7 +7,7 @@ export default function About() {
         <div style={{justifyContent:'center',alignItems:'center'}}>
             <div style={{textAlign:'center'}} >
 
-                <div className="head p-5 " xs={12}  style={{background:'#43d9b8',color:'white'}}>
+                <div className="head p-5 " xs={12}  >
                     <h3 style={{fontFamily:'verdana'}}>We design world-class</h3>
                 </div>
 
@@ -21,7 +21,7 @@ export default function About() {
 
                 <div className="para" >
                     <div className='col s12 x6 m-2 ' xs={12} sm={12} lg={6}>
-                        <img  src="https://justin-tippr.netlify.app/img/3establish_reputation_content.png" alt="aboutImage" width='350'/>
+                        <img src="https://justin-tippr.netlify.app/img/1benefit_service_content.png"   alt="aboutImage" width='350'/>
                     </div> 
                     <div className='col s12 x6 m-5 'xs={12} sm={12} lg={6} style={{justifyContent:'center',alignItems:'center'}}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, quas.
@@ -37,7 +37,7 @@ export default function About() {
                     </div>
 
                     <div className="col s12 m-4" >
-                        <img className='aboutImg' src="https://justin-tippr.netlify.app/img/1benefit_service_content.png" alt="aboutImage" width='350' />
+                        <img className='aboutImg' src="https://justin-tippr.netlify.app/img/3establish_reputation_content.png"  alt="aboutImage" width='350' />
                     </div>
                 </div>
             </div>
