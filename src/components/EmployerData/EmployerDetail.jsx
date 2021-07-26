@@ -32,7 +32,7 @@ export default function EmployerDetail() {
                     <div className="col s12 my-4 " style={{justifyContent:'center',textAlign:'center', alignItems:'center'}}>
                         <div  >
                             <div className="card-image image"> 
-                                <img src={emp.avatar_url} alt={emp.login} width='300' style={{borderRadius:50}}/>
+                                <img src={emp.avatar_url} alt={emp.login} width='200' style={{borderRadius:50}}/>
                             </div>
                             <div className="card m-2">
                                 <div className="card-content">

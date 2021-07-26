@@ -1,5 +1,6 @@
 .homeImg {
   cursor: pointer;
+  margin-top: 30px;
   
 }
 .homeImg:hover{
@@ -13,58 +14,66 @@
     }
   }
 
-  @media (max-width: 300px)  {
+  @media (min-width: 300px)  {
     /* Probably some parent element that limits the img width */
     .homeImg {
-      width: 220px;
+      width: 200px;
+      margin-left: -35px;
     }
   }
 
-  @media (max-width: 760px)  {
+  @media (max-width: 768px)  {
     /* Probably some parent element that limits the img width */
-    .home {
-      display: flex;
-      flex-wrap: wrap;
-    }
     .homeImg {
       width: 360px;
       cursor: pointer;
     }
   }
-
+  @media (min-width: 1024px) {
+    /* Probably some parent element that limits the img width */
+    .homeContainer {
+      display: flex;
+    }
+    .homeImg {
+      width: 610px;
+      margin-left: 20px;
+      
+    }
+  }
 
   // .buttonOne:hover {
   //   background-color: azure;
   //   border: 1px solid #43d9b8;
   // }
     .buttonOne {
-      margin: 20px;
       width: 230px;
       border: none;
       border-radius: 3px;
       background:#43d9b8;
       padding:5px;
+      margin: 25px;
+      margin-bottom: 60px;
 
     }
 
-    .buttonOne:hover {
-      background: white;
-      border: 1px solid  #43d9b8;
-    }
+    // .buttonOne:hover {
+    //   background: white;
+    //   border: 1px solid  #43d9b8;
+    // }
 
     .buttonTwo {
-      margin:20px;
       width:230px;
       border: none;
       border-radius: 3px;
       background:#0dcaf0;
       padding:5px;
+      margin:25px;
     }
 
-    .buttonTwo:hover{
-      background: white;
-      border: 1px solid #0dcaf0;
-    }
+    // .buttonTwo:hover{
+    //   background: white;
+    //   border: 1px solid #0dcaf0;
+    // }
 
     // style={{margin:20,
     //   marginBottom:15,

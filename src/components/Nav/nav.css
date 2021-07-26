@@ -5,9 +5,6 @@
 }
 
 .nav_link:hover {
-    background-color: rgb(76, 224, 235);
+    background-color: rgb(56, 234, 247);
     border-radius: 10%;
-}
-.nav_link:active {
-    background-color: cyan;
 }
