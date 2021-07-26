@@ -7,20 +7,22 @@ import {Typography} from '@material-ui/core'
 
 export default function Home() {
     return (
-       <div className='container' style={{paddingLeft:50,justifyContent:'center',alignItems:'center',flexWrap:'wrap'}} >
+       <div className='container home' style={{display:'flex',justifyContent:'center',alignItems:'center',flexWrap:'wrap',paddingLeft:20,}} >
            <div className="header" >
-           <Typography className='headerText' style={{margin:50,fontSize:25,fontFamily:'Raleway '}}>YOUR HOME FOR TIPPING </Typography>
+           <Typography className='headerText' style={{margin:'40px auto 40px auto',fontSize:25,fontFamily:'Raleway '}}>YOUR HOME FOR TIPPING </Typography>
            </div>
            <hr />
            <Row  xs='1' md='2' lg='2' >
                <Row className='p-2'>
                    
-                    <Col className='' style={{}}>
+                    <Col >
                             <Typography className='px-4' style={{fontFamily:' Raleway',fontSize:25,marginBottom:15}}>
                                 TIP
                             </Typography>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde necessitatibus illo aliquam obcaecati, facere beatae assumenda fugit eaque consequuntur consectetur, quas id at natus cum dolorem eos, esse ab a!
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, delectus.
+                            <div className="p-4" style={{textAlign:'center'}}>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde necessitatibus illo aliquam obcaecati, facere beatae assumenda fugit eaque consequuntur consectetur, quas id at natus cum dolorem eos, esse ab a!
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, delectus.
+                            </div>
                             <button style={{margin:20,
                                 marginBottom:15,
                                 width:130,
@@ -31,8 +33,10 @@ export default function Home() {
                             </button>
                     </Col>
                     <Col >
-                    <Typography style={{fontFamily:'Raleway',fontSize:25,marginBottom:15}}>Review Code</Typography>
-                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere mollitia voluptatem corporis, rem est nulla ad maxime cupiditate commodi ratione rerum at laborum, amet tenetur deserunt accusamus. Odit, nemo repellat!
+                    <Typography className='px-4' style={{fontFamily:'Raleway',fontSize:25,marginBottom:15}}>Review Code</Typography>
+                           <div className='p-4' style={{textAlign:'center'}}>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere mollitia voluptatem corporis, rem est nulla ad maxime cupiditate commodi ratione rerum at laborum, amet tenetur deserunt accusamus. Odit, nemo repellat!
+                           </div>
                             <button style={{margin:20,
                                 width:130,
                                 border:'none',

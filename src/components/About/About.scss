@@ -1,17 +1,14 @@
-@media (min-width: 750px) {
-    /* Probably some parent element that limits the img width */
-    .para {
-      display: flex;
-      
-    }
-  }
+// @media (min-width: 750px) {
+//     /* Probably some parent element that limits the img width */
+    
+//   }
 
 
   @media (max-width: 750px) {
     /* Probably some parent element that limits the img width */
     .aboutImg {
-      width: 250px;
-      height: 250px;
+      width: 280px;
+      height: 350px;
       margin-right: 50px;
       
     }
@@ -19,11 +16,14 @@
 
   @media (min-width: 750px) {
     /* Probably some parent element that limits the img width */
+    .para {
+      display: flex;
+      
+    }
     .aboutImg {
       width: 350px;
-      height: 350px;
+      height: 450px;
       margin-right: 50px;
-      
     }
   }
   .head {

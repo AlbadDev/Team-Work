@@ -1,14 +1,21 @@
 
   .footer {
     border-top-right-radius: 30%;
+    padding-right: 30px;
+  }
 
-    @media (max-width: 750px) {
-      /* Probably some parent element that limits the img width */
-      .footerImg {
-        width: 150px;
-        margin-right: 50px;
-        border-bottom-left-radius: 47%;
-      }
+  @media (max-width: 300px) {
+    /* Probably some parent element that limits the img width */
+    .footerImg {
+      width: 80px;
     }
+  }
 
+  @media (max-width: 750px) {
+    /* Probably some parent element that limits the img width */
+    .footerImg {
+      width: 150px;
+      padding-right: 30px;
+      border-radius: 20px;
+    }
   }
