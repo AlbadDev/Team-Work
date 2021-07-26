@@ -23,12 +23,7 @@ export default function Home() {
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde necessitatibus illo aliquam obcaecati, facere beatae assumenda fugit eaque consequuntur consectetur, quas id at natus cum dolorem eos, esse ab a!
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, delectus.
                             </div>
-                            <button style={{margin:20,
-                                marginBottom:15,
-                                width:130,
-                                border:'none',
-                                borderRadius: 3,
-                                background:'#43d9b8',padding:5}}>
+                            <button className='buttonOne' >
                                 Team Member
                             </button>
                     </Col>
@@ -37,11 +32,7 @@ export default function Home() {
                            <div className='p-4' style={{textAlign:'center'}}>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere mollitia voluptatem corporis, rem est nulla ad maxime cupiditate commodi ratione rerum at laborum, amet tenetur deserunt accusamus. Odit, nemo repellat!
                            </div>
-                            <button style={{margin:20,
-                                width:130,
-                                border:'none',
-                                borderRadius: 3,
-                                background:'#0dcaf0',padding:5}}>
+                            <button className='buttonTwo'>
                                 Team Member
                             </button>
                     </Col>

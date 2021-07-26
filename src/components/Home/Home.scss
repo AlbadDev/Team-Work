@@ -31,3 +31,44 @@
       cursor: pointer;
     }
   }
+
+
+  // .buttonOne:hover {
+  //   background-color: azure;
+  //   border: 1px solid #43d9b8;
+  // }
+    .buttonOne {
+      margin: 20px;
+      width: 230px;
+      border: none;
+      border-radius: 3px;
+      background:#43d9b8;
+      padding:5px;
+
+    }
+
+    .buttonOne:hover {
+      background: white;
+      border: 1px solid  #43d9b8;
+    }
+
+    .buttonTwo {
+      margin:20px;
+      width:230px;
+      border: none;
+      border-radius: 3px;
+      background:#0dcaf0;
+      padding:5px;
+    }
+
+    .buttonTwo:hover{
+      background: white;
+      border: 1px solid #0dcaf0;
+    }
+
+    // style={{margin:20,
+    //   marginBottom:15,
+    //   width:230,
+    //   border:'none',
+    //   borderRadius: 3,
+    //   background:'#43d9b8',padding:5}}

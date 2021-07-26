@@ -3,8 +3,13 @@
 }
 
 body {
-    margin: 0px;
-    padding:0px;
+  margin: 0px;
+  padding:0px;
+  font-family: 'BrownProTT' sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 2;
+  color: #3c3c57;
 }
 
 .container {
