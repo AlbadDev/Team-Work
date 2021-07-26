@@ -1,3 +1,7 @@
 .image {
     cursor: pointer;
 }
+
+.image:hover{
+    transform:rotate(1deg);
+}

@@ -1,5 +1,10 @@
-
-
+.homeImg {
+  cursor: pointer;
+  
+}
+.homeImg:hover{
+    transform: rotate(2deg);
+  }
 @media (min-width: 760px) {
     /* Probably some parent element that limits the img width */
     .homeImg {
